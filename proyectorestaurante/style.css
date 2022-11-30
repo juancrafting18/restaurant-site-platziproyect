@@ -119,4 +119,22 @@ main
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(5, minmax(100px, 250px));
+    gap: 30px;
+}
+.menu-grid-item 
+{
+    background-color: coral;
+    padding: 15px;
+    border-top-left-radius: 40px;
+}
+.menu-grid-item:hover 
+{
+    border-radius: 40px;
+    transition-duration: 2s;
+}
+.menu-grid-item img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
